@@ -1,7 +1,6 @@
 name: Ircbot
 version: @version@
 main: com.github.axel012.ircbot.IrcMain
-api-version: 1.14
 commands:
   start:
     usage: /ircbot:start
