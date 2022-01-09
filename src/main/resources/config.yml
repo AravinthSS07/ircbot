@@ -47,6 +47,12 @@ commands:
     shared: false
     vote: false
     data: ''
+  tmc:
+    enable: true
+    timeout: 5000
+    shared: false
+    vote: false
+    data: ''
   summon:
     enable: false
     timeout: 60000
@@ -60,20 +66,92 @@ commands:
     vote: false
     data: 'items list: https://raw.githubusercontent.com/axel012/ircbot/master/itemnames/items.txt'
   zomb:
-    enabled: true
-    timeout: 15000
-    shared: true
+    enable: false
+    timeout: 60000
+    shared: false
     vote: false
     data: ''
-  blind:
-    enabled: true
-    timeout: 15000
+  dangerskelly:
+    enable: false
+    timeout: 60000
     shared: true
     vote: false
     data: ''
   food:
-    enabled: true
-    timeout: 1500
+    enable: false
+    timeout: 60000
+    shared: true
+    vote: false
+    data: ''
+  delete:
+    enable: false
+    timeout: 60000
+    shared: true
+    vote: false
+    data: ''
+  fly:
+    enable: false
+    timeout: 60000
+    shared: true
+    vote: false
+    data: ''
+  blind:
+    enable: false
+    timeout: 60000
+    shared: true
+    vote: false
+    data: ''
+  creeperparty:
+    enable: false
+    timeout: 60000
+    shared: true
+    vote: false
+    data: ''
+  metalkiller:
+    enable: false
+    timeout: 60000
+    shared: true
+    vote: false
+    data: ''
+  skelly:
+    enable: false
+    timeout: 60000
+    shared: true
+    vote: false
+    data: ''
+  thor:
+    enable: false
+    timeout: 60000
+    shared: true
+    vote: false
+    data: ''
+  mfs:
+    enable: false
+    timeout: 60000
+    shared: false
+    vote: false
+    data: ''
+  waterbuket:
+    enable: false
+    timeout: 60000
+    shared: true
+    vote: false
+    data: ''
+  bugs:
+    enable: false
+    timeout: 60000
+    shared: true
+    vote: false
+    data: ''
+  mystery:
+    enable: false
+    timeout: 60000
+    shared: true
+    vote: false
+    data: ''
+  killerpig:
+    enable: false
+    timeout: 60000
     shared: true
     vote: false
     data: ''

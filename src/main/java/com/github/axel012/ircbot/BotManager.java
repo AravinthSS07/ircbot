@@ -157,6 +157,20 @@ public class BotManager extends PircBot {
                       String.format("take this " + ChatColor.GOLD + "[%s] " + ChatColor.WHITE + "%s", itemName, advice));
           }
 
+          if(cmd.equalsIgnoreCase("tmc")) {
+              String data[] = params.split(" ", 2);
+              String itemName = data[2];
+              if (itemName.contains("{")) return;
+              System.out.println(itemName);
+              String command = String.format("spawn Ar700 %s", itemName);
+            /*if(cmdData.vote && !cmdData.shared){
+                addVote(sender,itemName);
+            }else*/
+              ChatUtils.execCommand(command);
+              ChatUtils.twitchChatToMinecraft(sender,
+                      String.format("used the command " + ChatColor.GOLD + "[%s] ", itemName));
+          }
+
         if(cmd.equalsIgnoreCase("items")){
           sendMessage("#"+this.getCurrentChannel()," " + cmdData.data);
         }

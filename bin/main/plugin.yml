@@ -1,0 +1,17 @@
+name: Ircbot
+version: 1.1
+main: com.github.axel012.ircbot.IrcMain
+commands:
+  start:
+    usage: /ircbot:start
+    description: Start the irc twitch bot
+    aliases: [irsta]
+  stop:
+    usage: /ircbot:stop
+    description: Stop the irc twitch bot
+    aliases: [irsto]
+  togglechat:
+    usage: /ircbot:togglechat
+    description: Enable/Disable Twitch chat
+    aliases: [tgc]
+
